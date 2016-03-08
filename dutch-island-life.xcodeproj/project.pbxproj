@@ -12,6 +12,8 @@
 		AA1F9ED11C8C3A3800FE7E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1F9ECF1C8C3A3800FE7E4B /* Main.storyboard */; };
 		AA1F9ED31C8C3A3800FE7E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1F9ED21C8C3A3800FE7E4B /* Assets.xcassets */; };
 		AA1F9ED61C8C3A3800FE7E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1F9ED41C8C3A3800FE7E4B /* LaunchScreen.storyboard */; };
+		AA9F3ED91C8C7D330003A4F6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F3ED81C8C7D330003A4F6 /* DetailViewController.swift */; };
+		AA9F3EDB1C8C828D0003A4F6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F3EDA1C8C828D0003A4F6 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AA1F9ED21C8C3A3800FE7E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1F9ED51C8C3A3800FE7E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1F9ED71C8C3A3800FE7E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9F3ED81C8C7D330003A4F6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AA9F3EDA1C8C828D0003A4F6 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				AA1F9ED21C8C3A3800FE7E4B /* Assets.xcassets */,
 				AA1F9ED41C8C3A3800FE7E4B /* LaunchScreen.storyboard */,
 				AA1F9ED71C8C3A3800FE7E4B /* Info.plist */,
+				AA9F3ED81C8C7D330003A4F6 /* DetailViewController.swift */,
+				AA9F3EDA1C8C828D0003A4F6 /* PhotosViewController.swift */,
 			);
 			path = "dutch-island-life";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1F9ECE1C8C3A3800FE7E4B /* ViewController.swift in Sources */,
+				AA9F3EDB1C8C828D0003A4F6 /* PhotosViewController.swift in Sources */,
 				AA1F9ECC1C8C3A3800FE7E4B /* AppDelegate.swift in Sources */,
+				AA9F3ED91C8C7D330003A4F6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				AA1F9EDC1C8C3A3800FE7E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
